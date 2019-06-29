@@ -1,0 +1,440 @@
+ /* Font */
+
+    h1{
+      font-family: 'Oswald', sans-serif;
+       margin-top: 20px;
+       
+    }
+    
+    h2,h3,h4,h5,h6,p,a{
+      font-family: 'Titillium Web', sans-serif;
+        margin-top: 20px
+      }
+
+    .form{
+      font-family: 'Titillium Web', sans-serif;
+      
+    }
+    .onderschrift{
+      margin-top:-15px;
+      margin-bottom:70px;
+      font-family: 'Oswald', sans-serif;
+    }
+    li{
+      font-family: 'Titillium Web', sans-serif;
+    }
+
+    .shop{
+      font-size: 14px;
+      margin-top: 30px;
+      font-style: italic
+    }
+
+    .dropdown-menu{
+      font-family: 'Titillium Web', sans-serif;
+    }
+
+    .formperiode{
+      font-family: 'Titillium Web', sans-serif;
+    }
+
+    .gegevens{
+      font-family: 'Titillium Web', sans-serif;
+     
+    }
+    .label{
+      font-family: 'Titillium Web', sans-serif;
+      
+    }
+    .placeholder{
+      width:92%;
+      margin-right:50px
+    }
+    .form{
+      margin-bottom: 20px;
+      margin-right:20px
+    }
+    .textlabel{
+      margin-left: 20px
+    }
+
+    .artikel{
+     font-size: 20px !important;
+     margin-top:20px!important;
+     color: red
+      
+    }
+
+    .linkvoorwaarden{
+      color: black
+    }
+
+    .linkvoorwaarden:hover{
+      color: red
+    }
+
+ /* Button */  
+    .btn{
+      font-family: 'Oswald', sans-serif;
+      background-color: grey;
+      width: 100%;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      
+      border-width:2px
+     
+    }
+
+    .btn:hover{
+      font-family: 'Oswald', sans-serif;
+      background-color: white;
+      color:grey;
+      border-width: 2px;
+      
+    }
+
+    .winkel{
+      width: 50%;
+      
+      }
+    
+    
+    
+    
+
+ /* Footer */
+
+    footer{
+      color: white;
+    }
+
+    footer a{
+      color: white;
+    }
+
+    .mainfooter{
+      background-color: black;
+      padding: 40px;
+      margin-top:20px;
+      width:100%
+    }
+
+    
+    .facebook{
+      background-image: url(images/sprite.png);
+      background-position: 0 0;
+      
+      
+    }
+
+    .instagram{
+      background-image: url(images/sprite.png);
+      background-position: -50px 0;
+      
+     
+    }
+    .icon{
+      background-image: url(../../images/sprite.png);
+      background-repeat: no-repeat;
+      display: inline-block;
+      width:50px;
+      height: 50px;
+      text-indent: -999rem !important;
+      overflow:hidden; 
+      
+
+    }
+
+    
+
+ /* Navigatie */
+
+    .navcolor{
+      background-color: black !important; 
+      padding-bottom: 20px;
+      color:white
+      
+    }
+    .navbar-dark{
+      color:white
+      
+    }
+    .navbar-brand{
+      
+        font-family: 'Oswald', sans-serif;
+        
+     
+    }
+    a:hover{
+      color:white;
+      text-decoration: underline;
+    }
+    
+      
+    a {
+      color: white
+    }
+
+    .navbar-toggler {
+      
+      margin-top: 20px
+    }
+
+    
+   
+   /* Home */
+    .fireplace{
+        margin-top: 2em;
+        margin-bottom: 1em;
+
+    }
+
+    .fire{
+      align-items: center
+    }
+    
+
+    .carousel-item img{
+        width:100%;   
+    }
+
+    .carousel-item {
+        width:100%;
+    }
+
+    .box{
+      background-color: black;
+     
+      height: 80px;
+      margin: auto
+    }
+
+    .gezellig{
+        
+        background-color: rgb(210, 194, 175);
+        padding: 2em;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    .merken{
+      background-color:lightgrey;
+        padding: 2em;
+        margin-top: 2em;
+        
+    }
+
+    .barbas{
+      margin-bottom: 7px
+    }
+
+    .logozwart{
+      margin-top: 50px;
+      margin-bottom: 30px
+    }
+   
+    
+    .stroke{
+      background-color:grey;
+      stroke:solid;
+      width: 100%;
+      border: none;
+      height: 1px 
+    }
+
+/* gegevens */
+
+    .form{
+      margin-right: 20px
+    }
+
+    
+/* SHOP */
+    .openhaard{
+    padding-top: 20px;
+    margin-bottom: 20px
+    }
+
+    ul{
+      list-style-image: url(../../images/logo.svg)
+    }
+
+    
+
+/* Contact */
+
+    .contact{
+      margin: 16px;
+      background-color:  rgb(210, 194, 175);
+
+    }
+
+/* winkelwagen */
+
+    .periode{
+      background-color:grey;
+      color: white
+    }
+
+
+    .table{
+      font-family:'Titillium Web', sans-serif;
+    }
+
+    .product{
+      margin-top: 30px;
+      margin-bottom: 30px
+    }
+
+    .winkelwagen{
+      background-color: rgb(210, 194, 175);
+      color: black;
+      width: 100%;
+      margin-bottom: 20px
+    }
+
+    .breadcrumb{
+      background-color: white;  
+    }
+
+    .breadcrumb-item{
+      color:grey
+    }
+
+    .breadcrumb-item.active{
+      color: red
+    }
+    
+    .breadcrumb-item:hover{
+      color: black;
+      text-decoration: none
+    }
+    
+    .aanhef{
+      margin-right: 30px
+    }
+    
+    .aantal{
+      width: 40px !important;
+      border-radius: 5px;
+      margin-left: 20px
+    }
+
+    .trash{
+      margin-bottom: 40px;
+      color:black
+    }
+
+    .trash:hover{
+      margin-bottom: 40px;
+      color:red
+    }
+
+    .form-control{
+      margin-left: 20px;
+      margin-top:15px
+    }
+
+    .euro{
+      margin-top: -5px;
+      margin-bottom: 20px;
+      font-size: 50px
+    }
+
+    .artikelnummer{
+      margin-top:-3px;
+      font-size: 14px
+    }
+
+    .copyright{
+      margin-top: -5px
+    }
+
+    .contact{
+      margin-top:-1px
+
+      
+    }
+@media (min-width: 576px){
+
+  .footer .ul .li{
+    text-align: center;
+    margin: auto;
+    align-items: center
+  }
+  .copy{
+    text-align: center
+  }
+  
+  .faber{
+    margin-top: 15px !important
+  }
+
+  
+  
+}
+
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  
+
+  .icon{
+    
+    margin-top: -10px !important;
+    margin-bottom: -20px !important;
+     
+  }
+
+  .facebook{
+    margin-left: 20px !important
+  }
+  .openhaard{
+    margin-top: 25px !important;
+    width: 350px !important
+  }
+  
+  .fireplace{
+    margin-top: 10em;
+    width: 400px
+  }
+  
+  .adreslogo{
+    margin-top: 200px;
+    width:100px
+  }
+  .index{
+    margin-top:110px
+  }
+  }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  
+  .container {
+      position: relative;
+      width: 100%;
+  }
+
+ 
+
+  .logo{
+    position: center
+  }
+
+  .openhaard{
+    width: 350px
+
+  }
+  .haarden{
+    margin-top: 1em !important;
+  }
+  
+  .btn{
+    width:100% !important
+  }
+  .fireplace{
+    margin-top: 7em;
+    width: 600px
+  }
+  }
