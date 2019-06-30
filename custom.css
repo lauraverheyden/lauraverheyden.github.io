@@ -32,10 +32,10 @@ a:hover{
 }
 
 .navbar{
-    background-color:blueviolet !important;
+    background-color: #BEE6CE!important;
 }
 .navbar .navbar-brand{ 
-    color:pink;
+    color:white;
 }
 
 /* Body*/
