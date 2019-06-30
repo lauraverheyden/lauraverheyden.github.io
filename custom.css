@@ -30,6 +30,10 @@ a {
 a:hover{
     color:orange
 }
+
+.navbar{
+    color:blueviolet
+}
 /* Body*/
 
 .image{
