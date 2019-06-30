@@ -1,7 +1,7 @@
 /* Header*/
 
 .jumbotron{
-    background: url(img/header2.svg) no-repeat;
+    background-color:#acdef9;
     background-size: cover;
     color: white;
     height: 550px
@@ -56,7 +56,8 @@ a {
 .navbar-toggler .custom-toggler{
     
     background-color: #4D4D4D;
-    text-align: center
+    text-align: center;
+    float:center
 }
 .navbar-toggler:focus, .navbar-toggler:active {
         outline: none;
