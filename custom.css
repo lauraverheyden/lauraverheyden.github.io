@@ -1,18 +1,26 @@
 /* Header*/
 
 .jumbotron{
-    background: url(img/header.svg) no-repeat;
+    background: url(img/header2.svg) no-repeat;
     background-size: cover;
-    width: 100%;
-    color: white
+    color: white;
+    height: 550px
     
 }
-
-.display-3{
-    color: #f6bac8;
-    font-family: 'Roboto', sans-serif,;
-    font-size: 50px;   
+.home{
+    font-size: 200%;
+    text-align: center
 }
+
+.logo{
+    text-align: center;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
 
 
 a {
@@ -27,11 +35,16 @@ a {
     font-family: 'Muli', sans-serif;
     font-size: 13px
 }
-
+.nav-item{
+    
+    text-transform: uppercase;
+}
 .navbar{
     background-color:#acdef9!important;
+  
+    
 }
-.navbar .navbar-brand{ 
+.navbar .navbar-brand .nav-link{ 
     color:white;
     font-family: 'Muli';
     font-size: 16px;
@@ -40,6 +53,30 @@ a {
     
 }
 
+.navbar-toggler .custom-toggler{
+    
+    background-color: #4D4D4D;
+    text-align: center
+}
+.navbar-toggler:focus, .navbar-toggler:active {
+        outline: none;
+        box-shadow: none;
+      }
+
+      .navbar-toggler-icon:hover{
+        background-image:url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=FFFFFF');
+        
+    }
+
+.navbar-toggler-icon{
+    background-image:url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=4D4D4D');
+    display: flex
+}
+
+.navbar-toggler-icon:active{
+    background-image:url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=4D4D4D');
+    border-color:none
+}
 /* Body*/
 
 .image{
@@ -133,26 +170,40 @@ hr{
     width: 100%
 }
 /* Footer */
-
+.footer{
+    position:fixed;
+}
 .footer-bottom {
     background-color:#f6bac8;
     background-size: cover;
     width: 100%;
-    height: 100px;
-    display: block
+    
+    display: block;
+    
+
 }
 .copyright {
     color: #fff;
-    margin-top: 70px;
     font-family: 'Muli', sans-serif;
     font-size: 12px;
+    margin-bottom: 5px
 }
 
-.footercontact{
+.mail{
     color: #fff;
-    margin-top: 50px;
     font-family: 'Muli', sans-serif;
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: 100
+}
+
+.fa.instagram{
+    width: 100%
+}
+.footercontact{
+    color: #4D4D4D;
+    margin-top: 20px;
+    font-family: 'Muli', sans-serif;
+    font-size: 15px;
     font-weight: 700;
 }
    
