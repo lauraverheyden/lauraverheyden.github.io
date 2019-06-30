@@ -32,7 +32,10 @@ a:hover{
 }
 
 .navbar{
-    background-color:blueviolet
+    background-color:blueviolet !important;
+}
+.navbar .navbar-brand{ 
+    color:white
 }
 
 /* Body*/
