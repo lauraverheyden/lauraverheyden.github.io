@@ -1,3 +1,15 @@
+active:active{
+    color:#4D4D4D !important;
+    
+}
+.container-color{
+    background-color: #acdef9;
+    
+}
+
+.about{
+    float: right
+}
 /* Header*/
 
 .jumbotron{
@@ -5,6 +17,16 @@
     background-size: cover;
     color: white;
     height: 50%
+    
+}
+
+.info{
+    background-color:#f6bac8;
+    background-size: cover;
+    color: white;
+    height: 50%;
+    width: 100%;
+    padding:none
     
 }
 .home{
@@ -73,25 +95,22 @@ a {
     font-family: 'Muli';
     font-size: 16px;
     text-transform: uppercase;
-
-    
 }
 
 .navbar-toggler .custom-toggler{
-    
     background-color: #4D4D4D;
     text-align: center;
     float:center
 }
-.navbar-toggler:focus, .navbar-toggler:active {
-        outline: none;
-        box-shadow: none;
-      }
 
-      .navbar-toggler-icon:hover{
-        background-image:url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=FFFFFF');
-        
-    }
+.navbar-toggler:focus, .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler-icon:hover{
+    background-image:url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=FFFFFF');
+}
 
 .navbar-toggler-icon{
     background-image:url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=4D4D4D');
@@ -102,6 +121,7 @@ a {
     background-image:url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=4D4D4D');
     border-color:none
 }
+
 /* Body*/
 
 .image{
@@ -151,6 +171,7 @@ a {
     border: none;
     border-radius:  5px;   
 }
+/* Titles*/
 
 h2{
     
@@ -170,17 +191,13 @@ p{
 }
 
 h4{
-    color: #f6bac8;
+    color: #4D4D4D;
     font-weight: 600;
     font-size:16px;
     font-family: 'Roboto', sans-serif;
 
 }
-.bedrag{
-    font-weight: bold;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 20px
-}
+
 ol {
     
     font-family: 'Open Sans Condensed', sans-serif;
