@@ -2,6 +2,7 @@ active:active{
     color:#4D4D4D !important;
     
 }
+
 .container-color{
     background-color: #acdef9;
     
@@ -10,6 +11,8 @@ active:active{
 .about{
     float: right
 }
+
+
 /* Header*/
 
 .jumbotron{
@@ -75,8 +78,20 @@ a {
     border-color: white
   }
 
+  ul.nav li.dropdown:hover ul.dropdown-menu {
+    display: block;
+  }
 .nav-link:hover{
     color:#4D4D4D;
+}
+
+
+.actief{
+    
+    text-decoration: underline ;
+    text-decoration-color: white;
+    text-underline-position: under;
+    
 }
 
 .nav-link{
@@ -172,7 +187,18 @@ a {
     border-radius:  5px;   
 }
 /* Titles*/
+.link{
+    color: lightblue
+}
 
+.link:hover{
+    color: #4D4D4D
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px
+}
 h2{
     
     font-family: 'Open Sans Condensed', sans-serif;
@@ -186,7 +212,7 @@ h3{
 }
 
 p{
-    font-size: 14px;
+    font-size: 18px;
     font-family: 'Muli', sans-serif;
 }
 
