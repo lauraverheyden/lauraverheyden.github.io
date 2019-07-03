@@ -1,4 +1,4 @@
-active:active{
+.active:active{
     color:#4D4D4D !important;
     
 }
@@ -12,7 +12,9 @@ active:active{
     float: right
 }
 
-
+.container .dailylogo{
+    background-color: #f6bac8
+}
 /* Header*/
 
 .jumbotron{
