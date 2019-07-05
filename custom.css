@@ -8,6 +8,9 @@
     
 }
 
+
+
+
 .about{
     float: right
 }
@@ -188,6 +191,7 @@ a {
     border: none;
     border-radius:  5px;   
 }
+
 /* Titles*/
 .link{
     color: lightblue
