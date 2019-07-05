@@ -3,21 +3,10 @@
     
 }
 
-.container-color{
-    background-color: #acdef9;
-    
-}
-
-
-
-
 .about{
     float: right
 }
 
-.container .dailylogo{
-    background-color: #f6bac8
-}
 /* Header*/
 
 .jumbotron{
@@ -58,7 +47,10 @@
     text-align: center;
     
 }
-
+.insta {
+    color: #acdef9;
+    font-size: 30px
+}
 
 .navbar .navbar-collapse {
     text-align: center
@@ -72,7 +64,7 @@ a {
     float: none;
     color: #4D4D4D;
     display: block;
-    font-size: 13px;
+    font-size: 12px;
     font-family: 'Muli', sans-serif;
     text-transform: none;
   }
@@ -101,13 +93,15 @@ a {
 
 .nav-link{
     font-family: 'Muli', sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     color:white
 }
 .nav-item{
 
     text-align: center;
-    text-transform: uppercase;
+   
+    
+
 }
 
 .navbar .navbar-brand .nav-link{ 
@@ -243,6 +237,42 @@ hr{
     background-color: orange;
     width: 100%
 }
+
+/* Contact */
+
+
+.form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+    
+}
+
+.form-control{
+    width:60%;
+    font-size: 18px;
+    margin-bottom: 16px;
+    text-align: left
+}
+
+.input{
+    height: 45px;
+    color: #1F2833
+}
+
+
+
+form .submit{
+    background: #E64C52;
+    border-color: transparent;
+    color: white;
+    text-align: center
+}
+
+form .submit:hover{
+    background: #4D4D4D;
+    color: white
+}
+
 /* Footer */
 .footer{
     position:fixed;
