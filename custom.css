@@ -155,10 +155,11 @@ a {
 
 .container {
     position: relative;
-    max-width: 75%;
+    max-width: 70%;
     border: 3px solid pink;
     
 }
+
 
 .button span {
     cursor: pointer;
@@ -205,8 +206,9 @@ a {
 }
 
 h1{
-    font-family: 'Muli', sans-serif;
-    font-size: 50px;
+    font-family: 'titilium-web', sans-serif;
+    font-size: 40px;
+    color:#E65E6A;
     text-transform: capitalize;
     font-weight: bold
 
@@ -224,7 +226,7 @@ h3{
 }
 
 p{
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Muli', sans-serif;
 }
 
@@ -245,40 +247,8 @@ ol {
    
 }
 
-hr{
-    background-color: rgb(167, 153, 127);
-    width: 100%
-}
 
-/* Contact */
 
-.contact-form{
-    
-}
-form{
-    text-align: right
-
-}
-form:active{
-    text-align: right;
-    
-    
-}
-.body {
-    display:block;
-
-    
-}
-.form-control{
-    background-color: #f6bac8;
-    
-}
-
-label {
-    display:block;
-    margin-top:20px;
-    letter-spacing:2px;
-}
 
 /* Button to top */
 #myBtn {
@@ -290,7 +260,7 @@ label {
   font-size: 14px;
   border: none;
   outline: none;
-  background-color:#E6B8C6;
+  background-color:#E65E6A;
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -298,7 +268,7 @@ label {
 }
 
 #myBtn:hover {
-  background-color: #555;
+  background-color: #4D4D4D;
 }
 
 /* Footer */
@@ -327,9 +297,7 @@ label {
     font-weight: 100
 }
 
-.fa.instagram{
-    width: 100%
-}
+
 .footercontact{
     color: #4D4D4D;
     margin-top: 20px;
