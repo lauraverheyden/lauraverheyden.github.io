@@ -1,127 +1,54 @@
-.active:active{
-    color:#4D4D4D !important;
-    
-}
-
-.about{
-    float: right
-}
-
 /* Header*/
 
 .jumbotron{
-    background-color:#acdef9;
-    background-size: cover;
-    color: white;
-    height: 50%
+    background-color:#FFEBEC;
+    height: 750px;
+    margin-top: -20px;
     
 }
 
-.info{
-    background-color:#f6bac8;
-    background-size: cover;
-    color: white;
-    height: 50%;
-    width: 100%;
-    padding:none
-    
-}
-.home{
-    font-size: 200%;
-    text-align: center
-}
-
-.logo{
-    text-align: center;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  
-}
 /* Navigation*/
+
+.navbar-brand{
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #125397;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-right: 10px
+}
+
 .navbar {
-    
-    background-color: #acdef9;
-    float: none;
-    text-align: center;
-    margin-bottom: 50px
-    
-}
-.navbar .navbar-nav{
-    
-    background-color: #acdef9;
-    float: none;
-    text-align: center;
-    
-}
-.insta {
-    color: #acdef9;
-    font-size: 30px
+    color:#125397;
+    background-color: #FFEBEC;
 }
 
 .navbar .navbar-collapse {
     text-align: center
 }
 
-a {
-    color:white;
-    
-}
-.dropdown-item {
-    float: none;
-    color: #4D4D4D;
-    display: block;
-    font-size: 12px;
-    font-family: 'Muli', sans-serif;
-    text-transform: none;
-  }
-
-.dropdown:hover .dropdown-content {
-    display: block;
-    background-color: #acdef9;
-    border-color: white
-  }
-
-  ul.nav li.dropdown:hover ul.dropdown-menu {
-    display: block;
-  }
 .nav-link:hover{
-    color:#4D4D4D;
+    color:#125397;
+    text-decoration: underline ;
 }
-
 
 .actief{
     
     text-decoration: underline ;
-    text-decoration-color: white;
-    text-underline-position: under;
-    
+    text-decoration-color: #125397;
+    text-underline-position: under;  
 }
 
 .nav-link{
-    font-family: 'Muli', sans-serif;
-    font-size: 14px;
-    color:white
+    font-family: 'Assistant', sans-serif;
+    font-size: 12px;
+    color:#125397
 }
+
 .nav-item {
-
     text-align: center;
+    margin-right: 40px
 }
 
-
-
-.navbar .navbar-brand .nav-link{ 
-    color:white;
-    font-family: 'Muli';
-    font-size: 16px;
-    text-transform: uppercase;
-}
-
-.navbar-toggler .custom-toggler{
-    background-color: #4D4D4D;
-    text-align: center;
-    float:center
-}
 
 .navbar-toggler:focus, .navbar-toggler:active {
     outline: none;
@@ -129,185 +56,232 @@ a {
 }
 
 .navbar-toggler-icon:hover{
-    background-image:url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=FFFFFF');
+    background-image:url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=125397');
+    
 }
 
 .navbar-toggler-icon{
     background-image:url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=4D4D4D');
-    display: flex
+    display: flex;
+    color: #125397;
 }
 
 .navbar-toggler-icon:active{
-    background-image:url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=4D4D4D');
+    background-image:url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=125397');
     border-color:none
 }
 
 /* Body*/
 
-.image{
-    margin-bottom: 1em;
-}
-
-.tracklist{
-    margin-top: 1em
-}
-
 .container {
     position: relative;
-    max-width: 70%;
+    max-width: 80%;
     border: 3px solid pink;
     
 }
-
-
-.button span {
-    cursor: pointer;
-    display: inline-block;
+.container2 {
     position: relative;
-    transition: 0.5s;
-  }
-  
-  .button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
-  
-  .button:hover span {
-    padding-right: 25px;
-  }
-  
-  .button:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
-
-  .button{
-    background-color: #45A29E;
-    color: white;
-    margin:  auto;
-    display: block;
-    width: 90%;
-    border: none;
-    border-radius:  5px;   
+    margin-top: 150px;
+    border: 3px solid pink;
+    max-width: 80%
 }
 
+.container3 {
+    margin-top: -35px;
+    width: 100%;
+    height: 50%;
+    background-color:#125397;
+    
+}
+
+.container4 {
+    width:100%;
+    background-color:#FFEBEC;
+}
+
+.container5 {
+    position: relative;
+    margin-top: 150px;
+    border: 3px solid pink;
+    max-width: 75%
+
+}
+
+.container6 {
+    
+    background-color:#FFEBEC;
+    border: 3px solid pink;
+    max-width: 100%
+}
+
+.container7 {
+    position: relative;
+    margin-top: 100px;
+    border: 3px solid pink;
+    max-width: 60%
+
+}
+
+.floatright{
+    float:right;
+    
+    
+}
+
+.daily{
+    margin-right: 70px
+}
 /* Titles*/
-.link{
-    color: lightblue
-}
-
-.link:hover{
-    color: #4D4D4D
-}
 
 h1{
-    font-family: 'titilium-web', sans-serif;
-    font-size: 40px;
-    color:#E65E6A;
-    text-transform: capitalize;
-    font-weight: bold
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color:#125397;
+    text-transform: uppercase;
+    
 
 }
 h2{
     
-    font-family: 'Open Sans Condensed', sans-serif;
-    color: #1F2833
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #125397;
+    text-transform: uppercase;
+    font-size:45px;
 
 }
+
 h3{
     
-    font-family: 'Roboto', sans-serif;
-    color: #1F2833
+    font-family: 'Assistant', sans-serif;
+    color: #125397;
+    text-transform: uppercase;
+    font-size:20px;
+    font-weight: bolder
+    
+    
 }
 
+
 p{
-    font-size: 16px;
-    font-family: 'Muli', sans-serif;
+    
+    font-size: 14px;
+    font-family: 'Assistant', sans-serif;
+    color: #125397;
+    
 }
 
 h4{
-    color: #4D4D4D;
-    font-weight: 600;
-    font-size:16px;
-    font-family: 'Roboto', sans-serif;
+    color: #125397;
+    text-transform: uppercase;
+    font-size:25px;
+    font-family: 'Assistant', sans-serif;
 
 }
 
-ol {
-    
-    font-family: 'Open Sans Condensed', sans-serif;
-    margin-top: 1em;
-    text-align: left
-    
+.button{
+    font-size: 14px;
+    font-family: 'Assistant', sans-serif;
+    color: #333333;
+    font-weight: 100px;
+    margin-top: 200px;
+    border-bottom: #333333;
+    border-bottom: 2px solid;
    
+
+}
+
+.mail{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.link{
+    color:#125397;
+    text-decoration: underline
 }
 
 
-
-
-/* Button to top */
+/* Button */
 #myBtn {
   display: none;
   position: fixed;
   bottom: 20px;
-  right: 20px;
+  right: 10px;
   z-index: 99;
   font-size: 14px;
   border: none;
   outline: none;
-  background-color:#E65E6A;
-  color: white;
+  background-color:#125397;
+  border-color: #125397;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 2px;
+  color: #FFDD96;
+  font-weight: bold;
   cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
-  margin-bottom: 80px
+  padding: 14px 20px;
+  border-radius: 25px;
+  
 }
 
 #myBtn:hover {
-  background-color: #4D4D4D;
+  background-color:#FFDD96;
+  color: #125397
 }
 
+
+.buttoncv{
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color:#FFDD96;
+    border-color: #125397;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 2px;
+    color: #125397;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 14px 60px;
+    border-radius: 25px;
+    margin-bottom: 80px
+
+}
 /* Footer */
 
 .footer-bottom {
-    background-color:#E65E6A;
+    background-color:#125397;
     background-size: cover;
     width: 100%;
     display: block;
-    
-
 }
-.copyright {
-    color: #fff;
-    font-family: 'Muli', sans-serif;
-    font-size: 12px;
-    margin-bottom: 5px;
-    font-weight: normal
-}
-
-.mail{
-    color: #fff;
-    font-family: 'Muli', sans-serif;
-    font-size: 12px;
+  
+.container3 {
+    height: 100%;
+    width: 100%;
+    background-color:#125397;
     
 }
 
-
-.footercontact{
-    color: #4D4D4D;
-    margin-top: 10px;
-    font-family: 'Muli', sans-serif;
-    font-size: 15px;
-    font-weight: 700;
+.footer{
+    font-size: 14px;
+    color: #FFDD96
 }
-   
 
+.download{
+    font-size: 14px;
+    color: #FFDD96;
+    text-decoration: underline
+}
 
-
+.download:hover{
+    font-size: 14px;
+    color: #FFEBEC;
+    text-decoration: underline
+}
 
 /* Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
