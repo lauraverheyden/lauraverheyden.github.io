@@ -131,6 +131,12 @@
 .daily{
     margin-right: 70px
 }
+
+
+.dl{
+    margin-bottom: 30px
+}
+
 /* Titles*/
 
 h1{
@@ -190,10 +196,11 @@ h4{
 
 }
 
-.mail{
+a.mail{
     font-family: 'Trebuchet MS', sans-serif;
     font-weight: bold;
     font-size: 14px;
+    color:#125397;
 }
 
 .link{
