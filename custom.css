@@ -122,15 +122,27 @@
 
 }
 
+.container8 {
+    position: relative;
+    margin-top: 0px;
+    border: 3px solid pink;
+    max-width: 75%
+
+}
 .floatright{
     float:right;
     
     
 }
 
+.floatleft{
+    float:left;
+    margin-left: 20px
+}
 
-
-
+.work{
+    margin-bottom: 30px
+}
 
 .dl{
     margin-bottom: 30px
@@ -191,7 +203,18 @@ h4{
     margin-top: 200px;
     border-bottom: #333333;
     border-bottom: 2px solid;
-   
+
+}
+
+.button:hover{
+    font-size: 14px;
+    font-family: 'Assistant', sans-serif;
+    color: #125397;
+    font-weight: 100px;
+    margin-top: 200px;
+    border-bottom: #333333;
+    border-bottom: 2px solid;
+    text-decoration: none
 
 }
 
