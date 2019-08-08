@@ -13,8 +13,8 @@
     font-family: 'Trebuchet MS', sans-serif;
     color: #125397;
     text-transform: uppercase;
-    font-size: 40px;
-    margin-right: 10px
+    font-size: 35px;
+    
 }
 
 .navbar {
@@ -76,13 +76,13 @@
 .container {
     position: relative;
     max-width: 80%;
-    border: 3px solid pink;
+    
     
 }
 .container2 {
     position: relative;
     margin-top: 125px;
-    border: 3px solid pink;
+    
     max-width: 80%
 }
 
@@ -102,7 +102,7 @@
 .container5 {
     position: relative;
     margin-top: 125px;
-    border: 3px solid pink;
+    
     max-width: 75%
 
 }
@@ -110,14 +110,13 @@
 .container6 {
     
     background-color:#FFEBEC;
-    border: 3px solid pink;
+    
     max-width: 100%
 }
 
 .container7 {
     position: relative;
-    margin-top: 100px;
-    border: 3px solid pink;
+    margin-top: 50px;
     max-width: 60%
 
 }
@@ -125,8 +124,15 @@
 .container8 {
     position: relative;
     margin-top: 0px;
-    border: 3px solid pink;
     max-width: 75%
+
+}
+
+.container9 {
+    position: relative;
+    margin-top: 0px;
+    max-width: 80%;
+   
 
 }
 .floatright{
@@ -137,7 +143,8 @@
 
 .floatleft{
     float:left;
-    margin-left: 20px
+    margin-left: 20px;
+    margin-bottom: 30px
 }
 
 .work{
@@ -169,11 +176,11 @@ h2{
 
 h3{
     
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Trebuchet MS', sans-serif;
     color: #125397;
     text-transform: uppercase;
     font-size:20px;
-    font-weight: bolder
+   
     
     
 }
@@ -195,6 +202,10 @@ h4{
 
 }
 
+.project{
+    margin-top: -80px
+}
+
 .button{
     font-size: 14px;
     font-family: 'Assistant', sans-serif;
@@ -202,7 +213,7 @@ h4{
     font-weight: 100px;
     margin-top: 200px;
     border-bottom: #333333;
-    border-bottom: 2px solid;
+    border-bottom: 1px solid;
 
 }
 
@@ -212,7 +223,7 @@ h4{
     color: #125397;
     font-weight: 100px;
     margin-top: 200px;
-    border-bottom: #333333;
+    
     border-bottom: 2px solid;
     text-decoration: none
 
@@ -279,6 +290,19 @@ a.mail{
     margin-bottom: 80px
 
 }
+
+.blur{
+    
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+.blur:hover img {
+        -webkit-filter: blur(2px);
+        filter: blur(2);
+    }
+
 /* Footer */
 
 .footer-bottom {
@@ -297,7 +321,9 @@ a.mail{
 
 .footer{
     font-size: 14px;
-    color: #FFDD96
+    color: #FFDD96;
+   
+   
 }
 
 .download{
@@ -311,6 +337,7 @@ a.mail{
     color: #FFEBEC;
     text-decoration: underline
 }
+
 
 /* Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
