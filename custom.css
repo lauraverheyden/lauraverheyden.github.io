@@ -1,25 +1,117 @@
+
+
+
 /* Header*/
 
 .jumbotron{
-    background-color:#FFEBEC;
+    background-color:#aacbdd;
     height: 750px;
     margin-top: -20px;
     
 }
 
 /* Navigation*/
+.navnav{
+    background: #aacbdd;
+    max-width:100%;
+    height: 750px;
+    color: #153a63;
+    display: block;
+    
+}
+
+ul li a{
+    color: #153a63 !important;
+    
+
+}
+
+ul li a:hover{
+    color: #153a63 !important;
+    
+
+}
+
+.nav-link:hover{
+    background-color:white
+}
+
+
+ul{
+    width:80%;
+    margin: 0 auto;
+    padding:0;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px
+}
+
+
+
+.sticky-top{
+    background-color: #fff
+}
+
+
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+   
+    text-align: center;
+    line-height: 40px;
+}
+
+
+.toggle {
+    width:100%;
+    float: right;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    text-align:right;
+    box-sizing: border-box;
+    color: #aacbdd;
+    font-size: 30px;
+    display:none
+}
+
+a .toggle:hover {
+    text-decoration:none!important;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align:right;
+    color:#153a63;
+    text-decoration: underline ;
+    text-underline-position: under; 
+    
+    color: #153a63;
+    font-size: 30px;
+
+}
+
+
 
 .navbar-brand{
     font-family: 'Trebuchet MS', sans-serif;
-    color: #125397;
+    color: #153a63;
     text-transform: uppercase;
     font-size: 35px;
     
 }
 
-.navbar {
-    color:#125397;
-    background-color: #FFEBEC;
+.navbar-nav {
+    color:#DAE0E8;
+    position: fixed;
+    width:100%;
+    text-align: center
+    
 }
 
 .navbar .navbar-collapse {
@@ -27,49 +119,40 @@
 }
 
 .nav-link:hover{
-    color:#125397;
+    color:#153a63;
     text-decoration: underline ;
+    text-underline-position: under; 
 }
 
 .actief{
     
     text-decoration: underline ;
-    text-decoration-color: #125397;
+    text-decoration-color: #153a63;
     text-underline-position: under;  
 }
 
 .nav-link{
     font-family: 'Assistant', sans-serif;
     font-size: 12px;
-    color:#125397
+    color:#153a63
 }
 
 .nav-item {
     text-align: center;
-    margin-right: 40px
+    margin-right:2em 
 }
 
-
-.navbar-toggler:focus, .navbar-toggler:active {
-    outline: none;
-    box-shadow: none;
-}
-
-.navbar-toggler-icon:hover{
-    background-image:url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=125397');
+.anchor:before{
     
-}
+        content: "";
+        display: block;
+        padding-top: 30px; /* header height + empty space */
+        margin-top: -90px; /* header height to degrees padding’s space */
+        }
 
-.navbar-toggler-icon{
-    background-image:url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=4D4D4D');
-    display: flex;
-    color: #125397;
-}
 
-.navbar-toggler-icon:active{
-    background-image:url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=125397');
-    border-color:none
-}
+
+
 
 /* Body*/
 
@@ -86,31 +169,23 @@
     max-width: 80%
 }
 
-.container3 {
-    margin-top: -35px;
-    width: 100%;
-    height: 50%;
-    background-color:#125397;
-    
-}
 
-.container4 {
+
+.container4 /* footer*/{
     width:100%;
-    background-color:#FFEBEC;
+    height:550px;
+    background-color: #aacbdd
+    
 }
 
 .container5 {
     position: relative;
-    margin-top: 125px;
-    
+    margin-top: 175px;
     max-width: 75%
 
 }
 
 .container6 {
-    
-    background-color:#FFEBEC;
-    
     max-width: 100%
 }
 
@@ -122,9 +197,12 @@
 }
 
 .container8 {
-    position: relative;
+    
     margin-top: 0px;
-    max-width: 75%
+    width: 75%;
+    
+    
+
 
 }
 
@@ -133,6 +211,14 @@
     margin-top: 0px;
     max-width: 80%;
    
+
+}
+
+.container10 {
+    position: relative;
+    
+    
+    max-width: 60%
 
 }
 .floatright{
@@ -144,23 +230,42 @@
 .floatleft{
     float:left;
     margin-left: 20px;
-    margin-bottom: 30px
+    
 }
 
-.work{
-    margin-bottom: 30px
+.work /*grijs overlay*/{
+    
+   
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+     
+}
+
+.work:hover{
+    
+   
+        -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(0%);
+     
 }
 
 .dl{
     margin-bottom: 30px
 }
 
+.GTKM{
+    background-color: #fdeaec
+}
+
+.me{
+    margin-top: -40px
+}
 /* Titles*/
 
 h1{
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    color:#125397;
+    color:#153a63;
     text-transform: uppercase;
     
 
@@ -168,16 +273,17 @@ h1{
 h2{
     
     font-family: 'Trebuchet MS', sans-serif;
-    color: #125397;
+    color: #153a63;
     text-transform: uppercase;
     font-size:45px;
+    
 
 }
 
 h3{
     
     font-family: 'Trebuchet MS', sans-serif;
-    color: #125397;
+    color: #153a63;
     text-transform: uppercase;
     font-size:20px;
    
@@ -190,23 +296,79 @@ p{
     
     font-size: 14px;
     font-family: 'Assistant', sans-serif;
-    color: #125397;
+    color: #153a63;
+    
+}
+.accent {
+    
+    font-size: 14px;
+    font-family: 'Assistant', sans-serif;
+    color: #153a63;
+    font-weight: bold
     
 }
 
+.link{
+    font-size: 14px;
+    font-family: 'Assistant', sans-serif;
+    color: #aacbdd !important;
+    font-weight: bold
+}
+
+.link:hover{
+    font-size: 14px;
+    font-family: 'Assistant', sans-serif;
+    color: #153a63 !important;
+    font-weight: bold;
+    background-color: #fff
+}
+
+.cv:hover{
+    background-color: #153a63!important;
+}
+
+.GITlink:hover{
+    background-color: #aacbdd!important;
+    color: #153a63 
+}
+
 h4{
-    color: #125397;
+    color: #153a63;
     text-transform: uppercase;
     font-size:25px;
     font-family: 'Assistant', sans-serif;
 
 }
 
+h5{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    color:#153a63;
+    text-transform: uppercase;
+    margin-top: -50px
+
+}
+h6{
+    font-family: 'Assistant', sans-serif;
+    font-size: 20px;
+    color:#153a63;
+    font-weight: bold
+
+}
+
+.portfolio /*titel van project */{
+    background-color: #153a63;
+    color:#fff;
+    margin-top: -20;
+    margin-bottom: 30px;
+}
 .project{
-    margin-top: -80px
+    margin-top: -80px;
+    text-transform: capitalize;
 }
 
 .button{
+    
     font-size: 14px;
     font-family: 'Assistant', sans-serif;
     color: #333333;
@@ -220,7 +382,8 @@ h4{
 .button:hover{
     font-size: 14px;
     font-family: 'Assistant', sans-serif;
-    color: #125397;
+    color: #153a63;
+    background-color: white;
     font-weight: 100px;
     margin-top: 200px;
     
@@ -233,15 +396,21 @@ a.mail{
     font-family: 'Trebuchet MS', sans-serif;
     font-weight: bold;
     font-size: 14px;
-    color:#125397;
+    color:#083A65;
 }
 
 .link{
-    color:#125397;
+    color:#083A65;
     text-decoration: underline
 }
 
+.blur{
+    margin-bottom: 30px
+}
 
+.display-5{
+    margin-top: -50px
+}
 /* Button */
 #myBtn {
   display: none;
@@ -252,12 +421,12 @@ a.mail{
   font-size: 14px;
   border: none;
   outline: none;
-  background-color:#125397;
-  border-color: #125397;
+  background-color:#153a63;
+  border-color: #153a63;
   border-radius: 2px;
   border-style: solid;
   border-width: 2px;
-  color: #FFDD96;
+  color: white;
   font-weight: bold;
   cursor: pointer;
   padding: 14px 20px;
@@ -266,8 +435,8 @@ a.mail{
 }
 
 #myBtn:hover {
-  background-color:#FFDD96;
-  color: #125397
+  background-color:white;
+  color: #153a63
 }
 
 
@@ -275,38 +444,88 @@ a.mail{
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 2px 2px;
     font-family: 'Trebuchet MS', sans-serif;
-    background-color:#FFDD96;
-    border-color: #125397;
+    background-color:#aacbdd;
+    border-color: #153a63;
     border-radius: 2px;
     border-style: solid;
-    border-width: 2px;
-    color: #125397;
+    border-width: 3px;
+    color: #153a63;
     font-weight: bold;
     cursor: pointer;
-    padding: 14px 60px;
+    padding: 14px 50px;
     border-radius: 25px;
     margin-bottom: 80px
 
 }
 
-.blur{
-    
-        -webkit-filter: blur(0px);
-        filter: blur(0px);
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
-    }
-.blur:hover img {
-        -webkit-filter: blur(2px);
-        filter: blur(2);
-    }
+.buttoncv:hover{
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 2px 2px;
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color:#153a63;
+    border-color: #153a63;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 3px;
+    color: #fdeaec;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 14px 50px;
+    border-radius: 25px;
+    margin-bottom: 80px
+
+}
+
+
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #DAE0E8;
+    color: #153a63;
+  }
+
+  .previous:hover {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #153a63;
+    color: #fff;
+  }
+  
+  .next {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #aacbdd;
+    color: white;
+  }
+
+  .next:hover {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #153a63;
+    color: #fff;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
 
 /* Footer */
 
 .footer-bottom {
-    background-color:#125397;
+    background-color:#153a63;
     background-size: cover;
     width: 100%;
     display: block;
@@ -315,26 +534,26 @@ a.mail{
 .container3 {
     height: 100%;
     width: 100%;
-    background-color:#125397;
+    background-color:#153a63;
     
 }
 
 .footer{
     font-size: 14px;
-    color: #FFDD96;
+    color: #FFFEFA;
    
    
 }
 
 .download{
     font-size: 14px;
-    color: #FFDD96;
+    color: #FFFEFA;
     text-decoration: underline
 }
 
 .download:hover{
     font-size: 14px;
-    color: #FFEBEC;
+    color: #FFFEFA;
     text-decoration: underline
 }
 
@@ -346,7 +565,7 @@ a.mail{
   @media (min-width: 576px) { ... } */
 
   /* Medium devices (tablets, 768px and up)*/
-  @media (min-width: 768px) {
+  @media (max-width: 768px) {
     .display-3{
         font-size: 100px
     }
@@ -372,25 +591,30 @@ a.mail{
         width:95%;
         list-style: inside decimal;
         text-align: center
-           
-        
-        
-        
-       
-       
-
-       
-        
-        
 
     }
-   
-    
-   
-    
+
+}
+
+@media (max-width: 768px){
+    .toggle{
+        display: block
+    }
+
+ul{
+    width: 100%;
+    display: none
+}
+
+ul li {
+    display: block;
+    text-align:center
 }
  
-
+.active{
+    display: block
+}
+}
 
   /* Large devices (desktops, 992px and up)
   @media (min-width: 992px) { ... }*/

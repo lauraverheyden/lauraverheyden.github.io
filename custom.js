@@ -1,16 +1,19 @@
-$('li.dropdown').on('click', function() {
-    var $el = $(this);
-    if ($el.hasClass('open')) {
-        var $a = $el.children('a.dropdown-toggle');
-        if ($a.length && $a.attr('href')) {
-            location.href = $a.attr('href');
-        }
+<script>
+          $('.handle').on('click', function(){
+            $('nav ul').toggleClass('showing')
+          });
+        </script> 
+
+
+
+
+$(window).on("scroll", function() {
+    if($(window).scrollTop() > 20) {
+        $(".header").addClass("active");
+    } else {
+        //remove the background property so it comes transparent again (defined in your css)
+       $(".header").removeClass("active");
     }
 });
-
-$(document).ready(function () {
-    window.scrollTo(0,0);
-    });
-
 
 
