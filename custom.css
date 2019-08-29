@@ -17,7 +17,12 @@
     height: 750px;
     color: #153a63;
     display: block;
-    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
 }
 
 ul li a{
@@ -68,8 +73,6 @@ ul li{
     top: 0;
     left: 0;
     width: 100%;
-
-   
     text-align: center;
     line-height: 40px;
 }
