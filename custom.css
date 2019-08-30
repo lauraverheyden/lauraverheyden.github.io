@@ -66,6 +66,9 @@ ul li{
     background-color: #fff
 }
 
+button.toggle{
+    background-color: #fff
+}
 
 
 .header {
@@ -75,6 +78,7 @@ ul li{
     width: 100%;
     text-align: center;
     line-height: 40px;
+    background-color: #fff
 }
 
 
@@ -82,7 +86,6 @@ ul li{
     width:100%;
     float: right;
     padding: 10px 20px;
-    margin-top: 10px;
     border: none;
     text-align:right;
     box-sizing: border-box;
@@ -195,7 +198,8 @@ a .toggle:hover {
 }
 
 .container6 {
-    max-width: 100%
+    max-width: 100%;
+    background-color: #fff
 }
 
 .container7 {
