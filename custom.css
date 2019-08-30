@@ -64,7 +64,7 @@ ul li{
 
 
 .sticky-top{
-    position: fixed;
+    
     background-color: #fff
 }
 
@@ -99,7 +99,7 @@ button.toggle{
 
 a .toggle:hover {
     text-decoration:none!important;
-    padding: 10px 20px;
+    padding: 10px 40px;
     text-decoration: none;
     text-align:right;
     color:#153a63;
